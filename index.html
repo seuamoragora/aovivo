@@ -59,13 +59,13 @@
     <script src="scripts.js"></script>
     <script>
         if(location.href.indexOf("www") != -1){
-            document.getElementById("track").src = "https://www.funildepix.github.io/aovivo/audiohome.m4a";
+            document.getElementById("track").src = "https://www.seuamoragora.github.io/aovivo/audiohome.m4a";
         }
          
         const listaWhatsApp = [];
         //formato do número deve ser 5511999998888
-        listaWhatsApp.push("https://api.whatsapp.com/send?phone=xxxxxxxxxxxxxx&text=Quero%20fazer%20uma%20consulta%20gratuita");
-        listaWhatsApp.push("https://api.whatsapp.com/send?phone=xxxxxxxxxxxxxx&text=Quero%20fazer%20uma%20consulta%20gratuita");
+        listaWhatsApp.push("https://link.dispara.ai/ea6594fd-4d21-402d-9bca-16d9db84dd3c?text=Quero%20minha%20consulta%20gratuita");
+        listaWhatsApp.push("https://link.dispara.ai/ea6594fd-4d21-402d-9bca-16d9db84dd3c?text=Quero%20minha%20consulta%20gratuita");
 
         function getRandomLogoUrl() {
             return listaWhatsApp[Math.floor(Math.random() * listaWhatsApp.length)]
@@ -74,6 +74,23 @@
         var url = getRandomLogoUrl();
         document.getElementById('btnzap').href = url;
     </script>
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '834236978476371');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=834236978476371&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </body>
 
 </html>
